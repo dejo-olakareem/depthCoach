@@ -1,0 +1,82 @@
+@media only screen and (max-width: 800px) {
+    .my-nav {
+      margin-left: 0px !important;
+    }
+
+    .my-carousel {
+      margin-top: -180px !important;
+    }
+
+    .responsive-div{
+      height: 500px !important;
+    }
+
+    .my-nav ul li a {
+      padding: 0em !important;
+    }
+
+    .my-hidden-nav ul li a {
+      padding: 0em !important;
+    }
+
+
+}
+
+.my-nav {
+  z-index: 999;
+  background: transparent;
+  /*margin-left: 60%;*/
+}
+
+.my-nav a {
+  color: white !important;
+}
+
+.my-nav a:hover {
+ /* background-color: lightgrey !important;
+  border-radius: 50px;*/
+}
+
+.my-nav ul li a {
+  padding: 0 3.0em !important;
+}
+
+.my-hidden-nav ul li a {
+  padding: 0 3.0em !important;
+}
+
+
+.my-hidden-nav {
+  opacity: 0.9 !important;
+}
+
+.my-carousel {
+  margin-top: -60px;
+}
+
+.responsive-div{
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+    background-repeat: no-repeat;
+    /*overflow: hidden;*/
+  }
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: show;
+}
+
+.my-button{
+  height: 46px;
+  width: 300px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 0.8;
+  border-radius: 3px;
+   box-shadow: 0 8px 6px -6px black;
+  /*border-color: #0275d8;*/
+}

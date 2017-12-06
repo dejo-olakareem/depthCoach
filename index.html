@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="./infiniteSlider.css">
+    <link rel="stylesheet" type="text/css" href="./footer.css">
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./index.js"></script>
+
+    <!-- Slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+   <!-- Font awesome -->
+   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body id="body">
+    <header>
+      <nav class="my-nav sticky-top navbar navbar-toggleable-md navbar-light bg-faded">
+        <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#" style="padding-right: 45%;"> <img src="http://thedepthcoach.com/wp-content/uploads/2014/12/depth-coach-logo-11.png" width="200px"></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#body">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#loc_form">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Values</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#" style="color: black !important">Depth Coaching</a>
+                <a class="dropdown-item" href="#" style="color: black !important">Depth Typology</a>
+                <a class="dropdown-item" href="#" style="color: black !important">Reading</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" style="color: black !important">Blog</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="carousel-container">
+        <div id="carouselExampleControls" class="my-carousel carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active responsive-div" style="background-image: url(./images/Devous.jpg); background-attachment: fixed;">
+            </div>
+            <div class="carousel-item responsive-div" style="background-image: url(./images/stones.jpg);background-attachment: fixed;">
+            </div>
+            <div class="carousel-item responsive-div" style="background-image: url(./images/stone2.jpg);background-attachment: fixed;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="my-hidden-nav sticky-top navbar navbar-toggleable-md navbar-light bg-faded" style="display: none;">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="padding-right: 45%;"><img src="http://thedepthcoach.com/wp-content/uploads/2014/12/depth-coach-logo-11.png" width="200px"></a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#body">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#product">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#loc_form">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Values</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#" style="color: black !important">Depth Coaching</a>
+              <a class="dropdown-item" href="#" style="color: black !important">Depth Typology</a>
+              <a class="dropdown-item" href="#" style="color: black !important">Readings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#" style="color: black !important">Blog</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container text-center" style="padding-top: 30px;">
+      <h2 id="product" style="font-size: 2.5em">Our Products</h2>
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#home" role="tab">Client centered coaching</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Home of Depth Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#messages" role="tab">Creative Solution</a>
+        </li>
+      </ul>
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane active" id="home" role="tabpanel">Depth Coaching is a client-centered practice that focuses on a whole person model and helps clients set goals, find orientation, and get more general satisfaction out of their lives.</div>
+        <div class="tab-pane" id="profile" role="tabpanel">The Depth Profile is a comprehensive tool designed to assess, model, and engage the whole personality. The profile is intended for the client who is seriously interested in self-improvement.</div>
+        <div class="tab-pane" id="messages" role="tabpanel">Our signature three point system (ACE Process) and powerful depth coaching tools promote sustainable solutions to people who are looking for effective ways to enhance their quality of life.</div>
+        <div class="tab-pane" id="settings" role="tabpanel">...</div>
+      </div>
+    </div>
+    <div class="container" style="margin: 60px auto;border-style: outset;">
+      <div class="container text-center" style="padding-top: 35px;" >
+        <h2 style="padding-bottom: 30px;">What Myth are you living </h2>
+        <div class="row" style="margin-left: auto; margin-right: auto;" >
+          <div class="col" style="padding-bottom: 10px;">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="https://penusa.org/sites/default/files/Carl-Jung.jpg" alt="Card image cap" style="width: 100%; height: 100%;">
+              <div class="card-block">
+                <h4 class="card-title">Carl Jung</h4>
+                <p class="card-text">When an inner situation is not made conscious, it appears outside as fate.</p>
+                <a href="#" class="btn btn-outline-primary">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col" style="padding-bottom: 10px;">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="https://kids.nationalgeographic.com/content/dam/kids/photos/articles/History/M-Z/mlk-jr-05.jpg" alt="Card image cap" style="width: 100%; height: 100%;">
+              <div class="card-block">
+                <h4 class="card-title">Martin Luther King Jr.</h4>
+                <p class="card-text">The ultimate measure of a man is not where he stands in moments of comfort and convenience, ....</p>
+                <a href="#" class="btn btn-outline-primary">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col" style="padding-bottom: 10px;">
+            <div class="card" style="width: 20rem;">
+              <img class="card-img-top" src="http://cdn.history.com/sites/2/2017/04/GettyImages-114340267-E.jpeg" alt="Card image cap" style="width: 100%; height: 100%;">
+              <div class="card-block">
+                <h4 class="card-title">Albert Einstein</h4>
+                <p class="card-text">We cannot solve our problems with the same thinking we used when we created them.</p>
+                <a href="#" class="btn btn-outline-primary">Learn more</a>
+              </div>
+            </div>
+          </div><div class="col" style="padding-bottom: 10px;">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="https://psmag.com/.image/t_share/MTI3NTgxNjM1NzcxMTU2NDkw/lincoln-portrait.jpg" alt="Card image cap" style="width: 100%; height: 100%;">
+            <div class="card-block">
+              <h4 class="card-title">Abraham Lincoln</h4>
+              <p class="card-text">Always bear in mind that your own resolution to succeed is more important than any other.</p>
+              <a href="#" class="btn btn-outline-primary">Learn more</a>
+            </div>
+          </div>
+        </div><div class="col" style="padding-bottom: 10px;">
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="https://socialjusticeheroes.weebly.com/uploads/2/4/5/2/24529032/3421778_orig.png" alt="Card image cap" style="width: 100%; height: 100%;">
+          <div class="card-block">
+            <h4 class="card-title">Hellen Keller</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-outline-primary">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col" style="padding-bottom: 10px;">
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="https://www.crossroadsinitiative.com/wp-content/uploads/2016/02/Mother-Teresa-of-Calcutta-Mother-Teresas-National-Prayer-Breakfast-Message.jpg" alt="Card image cap" style="width: 100%; height: 100%;">
+          <div class="card-block">
+            <h4 class="card-title">Mother Teresa</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-outline-primary">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="container" style="padding-bottom: 40px;">
+    <h1 class="text-center" style="font-size: 2.5em">Our client</h1>
+    <div class="customer-logos">
+      <div class="slide"><img src="https://business.pinterest.com/profiles/contrib/pin/badge-wordmark.svg"></div>
+      <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Bosch-brand.svg/1280px-Bosch-brand.svg.png"></div>
+      <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Ubuntu_GDM_logo_alternative.png"></div>
+      <div class="slide"><img src="http://global.canon/en/corporate/logo/img/logo_1956.png"></div> <div class="slide"><img src="https://business.pinterest.com/profiles/contrib/pin/badge-wordmark.svg"></div>
+      <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Bosch-brand.svg/1280px-Bosch-brand.svg.png"></div>
+      <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Ubuntu_GDM_logo_alternative.png"></div>
+      <div class="slide"><img src="http://global.canon/en/corporate/logo/img/logo_1956.png"></div>
+    </div>
+  </div>
+  <div class="container text-center" style="padding-bottom:30px; ">
+    <div class="row" style="height: 450px;">
+      <div id="loc_form" class="text-center col" style="height: auto;margin: 0px auto;">
+        <form style="margin: auto; border :1px solid; border-style: outset;">
+          <div style="padding-top: 30px; padding-bottom: 10px;">
+            <h3>Feel out the form below to contact us</h3>
+          </div>
+          <div style="padding-bottom: 10px; ">
+            <input class="my-button" type="text" name="name" placeholder="Jane Doe" required >
+          </div>
+          <div style="padding-bottom: 10px; ">
+            <input class="my-button" type="text" name="email" placeholder="Jane@email.com" required>
+          </div>
+          <div style="padding-bottom: 10px; ">
+            <input class="my-button" type="text" name="phone" placeholder="555-555-5555" required>
+          </div style="padding-bottom: 10px; ">
+          <div style="padding-bottom: 10px;  ">
+            <textarea rows="4" cols="50" style="width: 300px; border-radius: 3px;" required></textarea>
+          </div style="padding-bottom: 10px; ">
+          <div style="padding-bottom: 30px;">
+            <button type="submit" value="submit" class="btn btn-secondary"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send </button>
+          </div>
+        </form>
+      </div>
+      <div id="loc_form2" class="col" style="height: 100%;margin: 10% auto;">
+        <div>
+          <h4>Our Office Location</h4>
+        </div>
+        <div>
+          <i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> Address : 1520 East Covell B5 #241
+          Davis, CA 95616
+        </div>
+        <div>
+          <i class="fa fa-phone fa-lg" aria-hidden="true"></i>Phone Number : 530.746.8239
+        </div>
+        <div>
+          <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Email : kiley@denovusinsights.com
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-dark">
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-push-6 item text">
+            <h3>Depth Coach</h3>
+            <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+          </div>
+          <div class="col-md-3 col-md-pull-6 col-sm-4 item">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Depth Coaching</a></li>
+              <li><a href="#">Development</a></li>
+              <li><a href="#">Hosting</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-md-pull-6 col-sm-4 item">
+            <h3>About</h3>
+            <ul>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Depth Typology</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="col-md-12 col-sm-4 item social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-snapchat"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+        </div>
+        <p class="copyright">Depth Coach © 2018</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
